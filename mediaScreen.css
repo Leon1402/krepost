@@ -1,0 +1,288 @@
+@media screen and (max-width: 960px){
+	.contact {
+		left: 20px;
+	}
+	.nav {
+		right: 20px;
+	}
+	.text h1 {
+		font-size: 2em;
+	}
+	.button{
+		margin-top: 30px;
+	}
+	.header-down {
+		margin-top: 25px;
+	}
+	.car {
+		width: 47%;
+		margin-bottom: 30px;
+	}
+	.car .image {
+		padding: 40px;
+	}
+	main .advantages {
+		padding: 10px;
+	}
+	main .icons {
+		justify-content: space-between;
+	}
+	main .icon {
+		width: 30%;
+		margin-bottom: 40px;
+	}
+	main .icon .img {
+		width: 120px;
+		height: 120px;
+		padding: 30px;
+	}
+	main .advantages {
+		padding-top: 50px;
+		padding-bottom: 50px;
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+	main .advantages h1 {
+		font-size: 30px;
+		margin-left: 40px;
+	}
+	main .advantages h2 {
+		font-size: 20px;
+		margin-left: 40px;
+	}
+	.form form img {
+		width: 200px;
+		right: -45px;
+		bottom: -80px;
+	}
+	.footer {
+		flex-direction: column;
+		text-align: center;
+	}
+	.footer div {
+		margin: 5px;
+	}
+	.galery {
+		padding: 20px;
+	}
+	.galery .changeSlide {
+		  top: 50%;
+	}
+	#nextSlide {
+		right: 20px;
+	}
+	.car .textCars p {
+		max-width: 200px;
+	}
+	.bottom {
+		margin-top: 80px;
+	}
+}
+
+/* ------------------------------------------------------------ */
+
+@media screen and (max-width: 500px){
+	.header-main {
+		text-align: center;
+	}
+	.header-main img {
+		height: 270px;
+	}
+	.info {
+		margin: auto;
+		position: static;
+		font-size: 20px;
+		background-size: 10px;
+	}
+	.text h2 {
+		font-size: 18px;
+		margin-bottom: 10px;
+	}
+	.text h1 {
+		font-size: 23px;
+	}
+	.header-down {
+		width: 100%;
+		text-align: center;
+	}
+	.contact {
+		position: static;
+		display: flex;
+		justify-content: center;
+	}
+	.contact a {
+		display: inline-block;
+		margin-right: 10px;
+	}
+	.contact a:last-child {
+		margin-right: 0px;
+	}
+	.numb {
+		display: none;
+	}
+	.button {
+		font-size: 17px;
+		padding: 15px 0;
+	}
+	.nav {
+		position: static;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		height: 40px;
+		margin-bottom: 10px;
+	}
+	.arrow {
+		margin: 0 10px;
+		width: 40px;
+		height: 40px;
+	}
+	.arrow.up {
+		transform: rotateZ(-90deg);
+	}
+	.arrow.down {
+		transform: rotateZ(-90deg);
+	}
+	.modal-content {
+	    width: 100%; 
+	}
+	.contain input, .contain button {
+		width: 80%;
+	}
+	.contact-info h1{
+		font-size: 25px;
+	}
+	.contact-info h3{
+		font-size: 20px;
+	}
+	.contactUs {
+		font-size: 0.9em;
+	}
+	.form input, .form button {
+		width: 80%;
+	}
+	.cars-block {
+		text-align: center;
+	}
+	.cars-block h3 {
+		margin-left: 0;
+	}
+	.car {
+		width: 80%;
+		margin: auto;
+		margin-bottom: 30px;
+	}
+
+	.workTypes-contact {
+		padding-top: 10px;
+		position: static;
+		display: flex;
+		justify-content: center;
+	}
+	.workTypes-contact a {
+		display: inline-block;
+		margin-right: 10px;
+	}
+	.workTypes-contact a:last-child {
+		margin-right: 0px;
+	}
+	.contact-text {
+		display: none;
+	}
+	main .advantages {
+		text-align: center;
+	}
+	main .advantages h1{
+		margin-left: 0;
+	}
+	main .advantages h2{
+		margin-left: 0;
+	}
+	main .icon {
+		width: 100%;
+	}
+	main .icon .img {
+		margin: auto;
+		margin-bottom: 20px;
+		width: 150px;
+		height: 150px;
+		padding: 40px;
+	}
+	.bottom {
+		flex-direction: column;
+	}
+	.services {
+		width: 270px;
+		padding: 0px;
+		margin: auto;
+		padding-bottom: 20px;
+	}
+	.services-list h1 {
+		font-size: 35px;
+	}
+	.services-list h3 {
+		font-size: 20px;
+	}
+	.services-list ul {
+		font-size: 18px;
+		display: block;
+	}
+	.cars-block h3 {
+		font-size: 25px;
+	}
+	.map {
+		text-align: center;
+	}
+	.map h3 {
+		font-size: 25px;
+	}
+	.galery .preview {
+		display: none;
+	}
+	.form .comment {
+		width: 80%;
+	}
+	.galery {
+		padding: 0px 20px;
+		padding-bottom: 50px;
+		text-align: center;
+	}
+	.galery h2 {
+		font-size: 25px;
+		margin-bottom: 10px;
+		padding-top: 10px;
+	}
+	#nextSlide {
+		right: 20px;
+	}
+	.bottom {
+		margin-top: 20px;
+	}
+	.bottom-item {
+		width: 100%;
+		padding-bottom: 10px;
+	}
+	.bottom-item img {
+		padding-bottom: 10px;
+	}
+	.bottom-item p {
+		padding-top: 0px;
+	}
+	main .advantages h2  {
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	main .advantages .advice {
+		float: none;
+		text-align: right;
+		margin-bottom: 50px;
+	}
+	.form form img {
+		right: -30px;
+		bottom: -45px;
+		width: 120px;
+	}
+	.car .textCars p {
+		max-width: 180px;
+	}
+}

@@ -1,0 +1,363 @@
+header {
+	background-image: url(res/1.jpg);
+	background-origin: content-box;
+	min-height: 900px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	transition: 1s;
+	-webkit-transition: 1s;
+	-ms-transition: 1s;
+	position: relative;
+}
+.dark {
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	position: absolute;
+	/* opacity: 70%; */
+	background: rgba(0, 0, 0, 0.7);
+}
+.info {
+	display: inline-block;
+	padding: 10px;
+	position: absolute;
+	top: 10px;
+	left: 25px;
+	text-align: left;
+	z-index: 4;
+}
+.info a {
+	font-size: 18px;
+	color: white;
+	text-decoration: none;
+	margin: 20px 25px;
+}
+
+.icon {
+	margin-left: 5px;
+	background-size: 6%;
+	background-position: left;
+	background-repeat: no-repeat;
+}
+.number{
+	background-image: url(res/number.svg);
+}
+.mail {
+	background-image: url(res/email.svg);
+}
+.location {
+	background-image: url(res/location.svg);
+}
+
+.header-main {
+	position: relative;
+	margin: auto;
+	text-align: center;
+}
+.header-main img {
+	display: block;
+	padding-top: 10px;
+	margin: auto;
+	height: 350px;
+}
+.box {
+	margin: auto;
+	width: 70%;
+}
+.text h2 {
+	color: orange;
+	font-family: Arial;
+	font-size: 22px;
+	margin: 20px;
+	padding-top: 20px;
+	letter-spacing: 3px;
+	position: relative;
+	display: inline-block;
+	margin-top: 20px;
+	text-transform: uppercase;
+}
+.text h2:before {
+	content: '';
+	width: 40px;
+	height: 2px;
+	position: absolute;
+	top: 70%;
+	left: -50px;
+	background-color: white;
+}
+.text h2:after {
+	content: '';
+	width: 40px;
+	height: 2px;
+	position: absolute;
+	top: 70%;
+	right: -50px;
+	background-color: white;
+}
+.text h1 {
+	font-size: 38px;
+	color: white;
+}
+.contact {
+	position: absolute;
+	top: 370px;
+	left: 30px;
+}
+.contact a {
+	z-index: 1;
+}
+.contact div {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border: 1px solid white;
+	transition: .2s;
+	background-position: center;
+	background-size: 50%;
+	background-repeat: no-repeat;
+	margin-bottom: 20px;	
+}
+.e-mail {
+	background-image: url(res/mail.png);
+}
+.e-mail:hover {
+	background-image: url(res/mailHover.png);
+}
+.whatsUp {
+	background-image: url(res/whatsapp.png);
+}
+.whatsUp:hover {
+	background-image: url(res/whatsappHover.png);
+}
+.viber {
+	background-image: url(res/viber.png);
+}
+.viber:hover {
+	background-image: url(res/viberHover.png);
+}
+.inst {
+	background-image: url(res/Instagram.png);
+}
+.inst:hover {
+	background-image: url(res/InstagramHover.png);
+}
+.noSelect {
+	user-select: none;
+}
+.contact div:hover {
+	cursor: pointer;
+	background-color: grey;
+	border: 1px solid grey;
+}
+
+.nav {
+	position: absolute;
+	right: 30px;
+	top: 340px;
+	height: 320px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+.arrow {
+	margin: 5px auto;
+	width: 50px;
+	height: 50px;
+	border: 1px solid white;
+	border-radius: 50%;
+	color: grey;
+	transition: .2s;
+	font-size: 30px;
+	z-index: 3;
+}
+
+.arrow:hover{
+	border: 1px solid grey;
+	cursor: pointer;
+	background-color: grey;
+	opacity: 70%;
+	color: white;
+}
+.arrow.up {
+	background-image: url('res/up.png');
+	background-position: center;
+	background-size: 40%;
+	background-repeat: no-repeat;
+}
+.arrow.down {
+	background-image: url('res/down.png');
+	background-position: center;
+	background-size: 40%;
+	background-repeat: no-repeat;
+}
+.arrow.up:hover {
+	background-image: url('res/upHover.png');
+}
+.arrow.down:hover {
+	background-image: url('res/downHover.png');
+}
+.numb:hover {
+	cursor: pointer;
+	background-color: grey;
+	opacity: 70%;
+	color: white;
+}
+.numb {
+	color: grey;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	text-align: center;
+	padding: 6px;
+	transition: .2s;
+}
+.numb.active {
+	background-color: grey;
+	color: white;
+	opacity: 90%;
+}
+.button {
+	margin: auto;
+	margin-top: 50px;
+	max-width: 250px;
+	height: 50px;
+	background-color: #116062;
+	color: white;
+	text-align: center;
+	padding: 13px;
+	font-size: 22px;
+	font-family: Arial;
+	border-radius: 30px;
+	transition: .2 ease;
+}
+.button:hover {
+	cursor: pointer;
+	background-color: #2BEBA5;
+	color: black;
+}
+.contain p {
+	padding: 2px;
+	line-height: 20px;
+	color: #808080;
+	font-size: 12px;
+	margin-bottom: 20px;
+}
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+		z-index: 10; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+		padding-top: 20px;
+}
+.modal-content {
+    margin: 5px auto;
+    width: 500px; 
+}
+
+.close {
+	position: absolute;
+	right: 10px;
+    color: #FFF;
+    font-size: 35px;
+    font-weight: bold;
+}
+.close:hover,.close:focus {
+    color: red;
+    cursor: pointer;
+
+}
+.contain {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	background-color: #181B26;
+	border-radius: 10px;
+	box-shadow: 1px 1px 100px 10px black;
+	color: white;
+	font-size: 15px;
+	line-height: 40px;
+}
+input {
+	width: 300px;
+	margin: 10px auto;
+	padding: 15px 25px;
+	border-radius: 30px;
+	border: none;
+	outline: none;
+}
+.comment {
+	padding-bottom: 100px;
+	border-radius: 10px;
+}
+.contain button {
+	width: 200px;
+	height: 50px;
+	margin: 20px auto;
+	margin-top: 10px;
+	padding: 0;
+	margin-bottom: 10px;
+	border-radius: 30px;
+	background-color: #116062;
+	border: none;
+	outline: none;
+}
+.contain button:hover {
+	cursor: pointer;
+	background-color: #2BEBA5;
+	color: black;
+}
+.animate {
+	-webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s;
+}
+.telephone a{
+	color: orange;
+}
+.header-down {
+	text-align: center;
+}
+.bottom {
+	max-width: 1000px;
+	margin: auto;
+	left: 0;
+	right: 0;
+	bottom: 50px;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 120px;
+}
+.bottom-item {
+	width: 24%;	
+	color: white;
+	text-transform: uppercase;
+	font-size: 12px;
+	text-align: center;
+	z-index: 3;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: space-between;
+	align-items: center;
+	font-family: Arial;
+	
+}
+.bottom-item .imgBottom{
+	width: 50px;
+	height: 55px;
+	z-index: 3;
+}
+.bottom-item img {
+	width: 100%;
+}
+.bottom-item p {
+	padding-top: 10px;
+}

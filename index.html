@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="UTF-8">
+
+	<title>Крепость - Аренда Спецтехники в Красноярске</title>
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+	<meta name="keywords"
+		content="аренда спецтехники, экскаватор, погрузчик, бульдозер, автокран, самосвал, миксер, бурение">
+	<meta name="description" content="Аренда спецтехники от собственника. В нашем автопарке: экскаваторы, бульдозеры, погрузчики, автокраны. 
+	Мы можем доставить бетон и инертные материалы. Стабильно высокие производственные показатели — результат работы команды 
+	профессионалов, преданных своему делу, своей компании.">
+
+	<link rel="stylesheet" type="text/css" href="header.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="mediaScreen.css">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" type="text/javascript"></script>
+	<script src="https://cdn.jsdelivr.net/npm/jquery.maskedinput@1.4.1/src/jquery.maskedinput.js"
+		type="text/javascript"></script>
+</head>
+
+<body>
+	<div id="wrapper">
+		<div id="topNubex">В начало</div>
+		<header id="header">
+			<div class="dark"></div>
+			<div class="header-main">
+				<div class="info">
+					<div class="icon number"><a href="tel:+79138374082">8(913)837-40-82</a></div>
+					<div class="icon mail"><a href='mailto:krepost.krsk@mail.ru'>krepost.krsk@mail.ru</a></div>
+					<div class="icon location"><a href="#" id="location">г. Красноярск пос. Солонцы</a></div>
+				</div>
+				<img src="res/logo.png">
+				<div class="box">
+					<div class="text">
+						<h2>Аренда спецтехники</h2>
+						<h1>Надежный партнер комплексных решений <br>Ваших задач</h1>
+					</div>
+					<div class="button" onclick="document.getElementById('id01').style.display='block'">связаться с нами
+					</div>
+				</div>
+			</div>
+
+			<div id="id01" class="modal">
+				<form class="modal-content animate" action="mail.php" method="POST">
+					<div class="contain">
+						<span onclick="document.getElementById('id01').style.display='none'" class="close"
+							title="Close Modal">&times;</span>
+
+						<h1>Позвоните нам <div class="telephone"><a href="tel:+79138374082">8(913)837-40-82</a></div> или оставьте
+							заявку</h1>
+						<input type="text" placeholder="Ваше имя" name="name" required>
+						<input class="phone" type="text" placeholder="Телефон" name="tel" required>
+						<input type="text" placeholder="Комментарий" name="com" class="comment">
+						<button class="button" type="submit" name="button">Отправить</button>
+						<p>Отправляя форму, Вы даете согласие на обработку персональных данных,
+							указанных Вами в заявке, в соответствии с требованиями
+							Федерального закона № 152-ФЗ от 27.07.2006 «О персональных данных».</p>
+					</div>
+				</form>
+			</div>
+
+			<div class="header-down">
+				<div class="contact">
+					<a href='mailto:krepost.krsk@mail.ru'>
+						<div class="e-mail"></div>
+					</a>
+					<a href="https://wa.me/79832820775">
+						<div class="whatsUp"></div>
+					</a>
+					<a href="viber://chat?number=79832820775" rel="nofollow">
+						<div class="viber"></div>
+					</a>
+					<a href="https://www.instagram.com/kck2010mail.ru/?igshid=sic5bfkgo0zs">
+						<div class="inst"></div>
+					</a>
+				</div>
+
+				<div class="nav">
+					<div id="up" class="arrow up noSelect"></div>
+					<div>
+						<div class="numb active noSelect" data-index='0'>1</div>
+						<div class="numb noSelect" data-index='1'>2</div>
+						<div class="numb noSelect" data-index='2'>3</div>
+					</div>
+					<div id="down" class="arrow down noSelect"></div>
+				</div>
+
+				<div class="bottom">
+					<div class="bottom-item">
+						<div class="imgBottom"><img src="res/1231233121.png"></div>
+						<p>Собственные машины</p>
+					</div>
+					<div class="bottom-item">
+						<div class="imgBottom"><img src="res/change1.png"></div>
+						<p>Замена при поломках</p>
+					</div>
+					<div class="bottom-item">
+						<div class="imgBottom"><img src="res/person1.png"></div>
+						<p>Свои специалисты</p>
+					</div>
+					<div class="bottom-item">
+						<div class="imgBottom"><img src="res/service1.png"></div>
+						<p>Мобильный ремонтный сервис</p>
+					</div>
+				</div>
+			</div>
+		</header>
+
+
+		<main>
+			<div class="cars-background">
+				<div class="cars-block">
+					<h3>Перечень<br>имеющейся<br>техники</h3>
+					<div class="cars">
+						<div class="car">
+							<div class="image"><img src="res/cars/4.jpg"></div>
+							<div class="textCars">
+								<p>Экскаваторы гусеничные</p>
+							</div>
+							<button class="carList" data-index="0">Машины в наличии</button>
+							<div class="carsList">
+								<ul>
+									<li>CASE 210</li>
+									<li>Case CX 290B</li>
+									<li>Hitachi 270</li>
+									<li>Doosan 300</li>
+									<li>Hyundai 320 (+гидромолот 10 000 кДж)</li>
+									<li>Hyundai 330 (+рыхлитель)</li>
+									<li>Case CX 350B</li>
+								</ul>
+							</div>
+						</div>
+						<div class="car">
+							<div class="image"><img src="res/cars/1.jpg"></div>
+							<div class="textCars">
+								<p>Экскаваторы колесные</p>
+							</div>
+							<button class="carList" data-index="1">Машины в наличии</button>
+							<div class="carsList">
+								<ul>
+									<li>Doosan 180</li>
+									<li>Doosan 190 (+ гидромолот 5 600 кДж)</li>
+									<li>Hitachi 210</li>
+								</ul>
+							</div>
+						</div>
+						<div class="car">
+							<div class="image"><img src="res/cars/6.jpg"></div>
+							<div class="textCars">
+								<p>Бульдозеры</p>
+							</div>
+							<button class="carList" data-index="2">Машины в наличии</button>
+							<div class="carsList">
+								<ul>
+									<li>Б10М (Т 170)</li>
+									<li>Shantui SD16</li>
+									<li>Shantui SD22</li>
+									<li>Shantui SD32</li>
+									<li>Четра Т25</li>
+								</ul>
+							</div>
+						</div>
+						<div class="car">
+							<div class="image"><img src="res/cars/2.jpg"></div>
+							<div class="textCars">
+								<p>Фронтальные погрузчики</p>
+							</div>
+							<button class="carList" data-index="3">Машины в наличии</button>
+							<div class="carsList">
+								<ul>
+									<li>Foton Lovol fl936f</li>
+									<li>SDLG LG936L</li>
+									<li>XCLG LW300F</li>
+								</ul>
+							</div>
+						</div>
+						<div class="car">
+							<div class="image"><img src="res/cars/5.jpg"></div>
+							<div class="textCars">
+								<p>Экскаваторы погрузчики</p>
+							</div>
+							<button class="carList" data-index="4">Машины в наличии</button>
+							<div class="carsList">
+								<ul>
+									<li>MST M544</li>
+									<li>CAT 426F2</li>
+								</ul>
+							</div>
+						</div>
+						<div class="car">
+							<div class="image"><img src="res/cars/7.jpg"></div>
+							<div class="textCars">
+								<p>Катки<br> (грунтовые / дорожные)</p>
+							</div>
+							<button class="carList" data-index="5">Машины в наличии</button>
+							<div class="carsList">
+								<ul>
+									<li>BOMAG BW 100 AD-5 (2,5 тонны)</li>
+									<li>Sakai tw500 (4 тонны)</li>
+									<li>Ammann ASC 130 D (12,8 тонн)</li>
+									<li>SDLG RS8140 (14 тонн)</li>
+									<li>LiuGong CLG 614H (14 тонн)</li>
+									<li>XCMG XS143J (14,7 тонн)</li>
+									<li>Shantui SR16 (16 тонн)</li>
+									<li>Ammann ASC 150 D (18 тонн)</li>
+								</ul>
+							</div>
+						</div>
+						<div class="car">
+							<div class="image"><img src="res/cars/8.png"></div>
+							<div class="textCars">
+								<p> Самосвалы</p>
+							</div>
+							<button class="carList" data-index="6">Машины в наличии</button>
+							<div class="carsList">
+								<ul>
+									<li>Самосвалы от 10 до 25 тонн (10 единиц) </li>
+								</ul>
+							</div>
+						</div>
+						<div class="car">
+							<div class="image"><img src="res/cars/9.jpg"></div>
+							<div class="textCars">
+								<p>Автокраны</p>
+							</div>
+							<button class="carList" data-index="7">Машины в наличии</button>
+							<div class="carsList">
+								<ul>
+									<li>Автокраны от 25 до 70 тонн</li>
+								</ul>
+							</div>
+						</div>
+						<div class="car">
+							<div class="image"><img src="res/cars/10.png"></div>
+							<div class="textCars">
+								<p>Тралы</p>
+							</div>
+							<button class="carList" data-index="8">Машины в наличии</button>
+							<div class="carsList">
+								<ul>
+									<li>Тралы грузоподъемностью 40, 50 и 60 тонн</li>
+								</ul>
+							</div>
+						</div>
+						<div class="car">
+							<div class="image"><img src="res/cars/11.jpg"></div>
+							<div class="textCars">
+								<p>Грейдеры</p>
+							</div>
+							<button class="carList" data-index="9">Машины в наличии</button>
+							<div class="carsList">
+								<ul>
+									<li>ДЗ - 98</li>
+								</ul>
+							</div>
+						</div>
+						<div class="car">
+							<div class="image"><img src="res/cars/12.jpg"></div>
+							<div class="textCars">
+								<p>Сваебойные/буровые</p>
+							</div>
+							<button class="carList" data-index="10">Машины в наличии</button>
+							<div class="carsList">
+								<ul>
+									<li>Бурение скважин шнеками больших диаметров, возможно бурение по скале</li>
+								</ul>
+							</div>
+						</div>
+						<div class="car">
+							<div class="image"><img src="res/cars/13.jpg"></div>
+							<div class="textCars">
+								<p>Автомиксера</p>
+							</div>
+							<button class="carList" data-index="11">Машины в наличии</button>
+							<div class="carsList">
+								<ul>
+									<li>Осуществляем доставку бетона с бетонного завода миксерами с вместительностью
+										барабана от 2м3 до 9м3</li>
+								</ul>
+							</div>
+						</div>
+						<div class="car">
+							<div class="image"><img src="res/cars/3.jpg"></div>
+							<div class="textCars">
+								<p>Мини погрузчики</p>
+							</div>
+							<button class="carList" data-index="12">Машины в наличии</button>
+							<div class="carsList">
+								<ul>
+									<li>Колесный мини-погрузчик Case</li>
+
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="photoGalery">
+				<div class="galery">
+					<h2>Фотогалерея</h2>
+					<div class="slide">
+						<img src="res/galery/gal1.jpg">
+						<p>1/10</p>
+					</div>
+					<div class="slide">
+						<img src="res/galery/gal2.jpg">
+						<p>2/10</p>
+					</div>
+					<div class="slide">
+						<img src="res/galery/gal3.jpg">
+						<p>3/10</p>
+					</div>
+					<div class="slide">
+						<img src="res/galery/gal4.jpg">
+						<p>4/10</p>
+					</div>
+					<div class="slide">
+						<img src="res/galery/gal5.jpg">
+						<p>5/10</p>
+					</div>
+					<div class="slide">
+						<img src="res/galery/gal6.jpg">
+						<p>6/10</p>
+					</div>
+					<div class="slide">
+						<img src="res/galery/gal7.jpg">
+						<p>7/10</p>
+					</div>
+					<div class="slide">
+						<img src="res/galery/gal8.jpg">
+						<p>8/10</p>
+					</div>
+					<div class="slide">
+						<img src="res/galery/gal9.jpg">
+						<p>9/10</p>
+					</div>
+					<div class="slide">
+						<img src="res/galery/gal10.jpg">
+						<p>10/10</p>
+					</div>
+
+					<div class="changeSlide" id="prevSlide">&#10094;</div>
+					<div class="changeSlide" id="nextSlide">&#10095;</div>
+
+					<div class="preview">
+						<div class="prevItem" data-index="0">
+							<img src="res/galery/gal1.jpg">
+						</div>
+						<div class="prevItem" data-index="1">
+							<img src="res/galery/gal2.jpg">
+						</div>
+						<div class="prevItem" data-index="2">
+							<img src="res/galery/gal3.jpg">
+						</div>
+						<div class="prevItem" data-index="3">
+							<img src="res/galery/gal4.jpg">
+						</div>
+						<div class="prevItem" data-index="4">
+							<img src="res/galery/gal5.jpg">
+						</div>
+						<div class="prevItem" data-index="5">
+							<img src="res/galery/gal6.jpg">
+						</div>
+						<div class="prevItem" data-index="6">
+							<img src="res/galery/gal7.jpg">
+						</div>
+						<div class="prevItem" data-index="7">
+							<img src="res/galery/gal8.jpg">
+						</div>
+						<div class="prevItem" data-index="8">
+							<img src="res/galery/gal9.jpg">
+						</div>
+						<div class="prevItem" data-index="9">
+							<img src="res/galery/gal10.jpg">
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="advantagesBlock">
+				<div class="advantages">
+					<h1>Наши преимущества</h1>
+					<h2>С нами выгодно</h2>
+					<div class="advice" onclick="document.getElementById('id01').style.display='block'">НУЖЕН СОВЕТ?</div>
+					<div class="icons">
+						<div class="icon">
+							<div class="img"><img src="res/1231233121.png"></div>
+							<h3>Машины в собственности</h3>
+							<p>Важно отметить, что техника является нашей собственностью.
+								Так же мы периодически расширяем ассортимент парка,
+								что позволяет удовлетворять почти все запросы наших клиентов.
+							</p>
+						</div>
+						<div class="icon">
+							<div class="img"><img src="res/service1.png"></div>
+							<h3>Своевременное ТО и обслуживание</h3>
+							<p>Осуществляем качественный ремонт и своевременное обслуживание,
+								что являются залогом успешной работы техники.
+								Сервис обязательно нужен даже тем механизмам, которые работают отлично.
+							</p>
+						</div>
+						<div class="icon">
+							<div class="img"><img src="res/person1.png"></div>
+							<h3>Свои специалисты</h3>
+							<p>В нашем коллективе работает ответственный экипаж, с опытом работы.
+								Стабильно высокие производственные показатели —
+								результат работы команды профессионалов,
+								преданных своему делу, своей компании.
+							</p>
+						</div>
+						<div class="icon">
+							<div class="img"><img src="res/key1.png"></div>
+							<h3>Работа под ключ</h3>
+							<p>Благодаря ответственности, технической оснащенности и опыту работ,
+								мы способны удовлетворить почти каждый Ваш запрос на выгодных и
+								оперативных условиях, а так же высоком профессиональном уровне.
+							</p>
+						</div>
+						<div class="icon">
+							<div class="img"><img src="res/symbol1.png"></div>
+							<h3>Мобильный ремонтный сервис</h3>
+							<p>Обладая высокой технической квалификацией,
+								сервисные специалисты выполняют ремонтно восстановительные
+								работы при непредвиденных неисправностях техники,
+								оперативно выезжая на объект Заказчика.
+							</p>
+						</div>
+						<div class="icon">
+							<div class="img"><img src="res/document1.png"></div>
+							<h3>Передача необходимой документации</h3>
+							<p>Иногда бухгалтер тратит больше времени и сил на сбор недостающей
+								первичной документации от контрагентов. Обеспечим своевременную
+								сдачу необходимых документов в Вашу бухгалтерию.
+							</p>
+						</div>
+						<div class="icon">
+							<div class="img"><img src="res/change1.png"></div>
+							<h3>Замена техники</h3>
+							<p>В случае если спецтехники выйдет из строя и это потребует
+								длительного ремонта, Вы получите максимально быструю замену
+								машины на рабочую с аналогичными характеристиками.
+							</p>
+						</div>
+						<div class="icon">
+							<div class="img"><img src="res/buy1.png"></div>
+							<h3>ЗАКРОЕМ ваши ПОТРЕБНОСТи</h3>
+							<p>Обладая собственным парком спецтехники, который периодически пополняется,
+								мы способны предоставить комплексное решение поставленных Вами задач,
+								реализуя проекты различного масштаба.
+							</p>
+						</div>
+						<div class="icon">
+							<div class="img"><img src="res/pay1.png"></div>
+							<h3>Время на ремонт не оплачивается</h3>
+							<p>При длительных нагрузках технике порой свойственны неисправности,
+								при подобной ситуации наша компания обязуется оперативно провести
+								восстановление машины, простой из-за ремонта Вами не оплачивается.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="workTypesBlock">
+				<div class="workTypes">
+					<div class="contact-text">Связаться с нами</div>
+					<div class="workTypes-contact">
+						<a href='mailto:krepost.krsk@mail.ru'>
+							<div class="e-mail"></div>
+						</a>
+						<a href="https://wa.me/79832820775">
+							<div class="whatsUp"></div>
+						</a>
+						<a href="viber://chat?number=79832820775" rel="nofollow">
+							<div class="viber"></div>
+						</a>
+						<a href="https://www.instagram.com/kck2010mail.ru/?igshid=sic5bfkgo0zs">
+							<div class="inst"></div>
+						</a>
+					</div>
+
+					<div class="services">
+						<div class="services-list">
+							<h1>Виды работ</h1>
+							<h3>Мы делаем работу качественно</h3>
+							<div class="list">
+								<ul>
+									<li><span>Строительство ЛЭП</span></li>
+									<li><span>Площадки под строительство</span></li>
+									<li><span>Разработка карьеров</span></li>
+									<li><span>Лесные работы</span></li>
+									<li><span>Разработка котлованов</span></li>
+									<li><span>Доставка инертных материалов</span></li>
+									<li><span>Демонтаж нефтепровода</span></li>
+								</ul>
+								<ul>
+									<li><span>Земляные работы</span></li>
+									<li><span>Дорожные работы</span></li>
+									<li><span>Грузоперевозки</span></li>
+									<li><span>Перевозки тралом</span></li>
+									<li><span>Бурение скважин</span></li>
+									<li><span>Доставка бетона</span></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="contactUs">
+				<div class="contact-info">
+					<h1>Проконсультируем по Вашим вопросам!</h1>
+					<h3>Оставьте заявку прямо сейчас
+						<br>и мы свяжемся с Вами
+					</h3>
+				</div>
+				<div class="form">
+					<form action="" method="post">
+						<h3>Заполните форму или позвоните по номеру :
+							<br><a href="tel:+79138374082">8(913)837-40-82</a>
+						</h3>
+						<input type="text" placeholder="Ваше имя" name="name" required>
+						<input type="text" class="phone" placeholder="Телефон" name="tel" required><br>
+						<input type="text" class="comment" placeholder="Необходимая техника" name="com"><br>
+						<p>Отправляя форму, Вы даете согласие на обработку персональных данных,
+							указанных Вами в заявке, в соответствии с требованиями
+							Федерального закона № 152-ФЗ от 27.07.2006 «О персональных данных».</p>
+						<button type="submit" id="submit" name="button">Отправить</button>
+						<img src="res/item.png">
+					</form>
+				</div>
+			</div>
+
+			<div class="mapBlock">
+				<div class="map">
+					<h3>Местоположение</h3>
+					<iframe id="location"
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1574.591528319237!2d92.83748965386442!3d56.07392187306392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5cd7ac0251fa1ca1%3A0xb7d1527a1fa1aaa3!2z0YPQuy4g0J3QvtCy0LDRjywgMzTQkSwg0KHQvtC70L7QvdGG0YssINCa0YDQsNGB0L3QvtGP0YDRgdC60LjQuSDQutGA0LDQuSwgNjYwMDE1!5e0!3m2!1sru!2sru!4v1585214555387!5m2!1sru!2sru"
+						width="100%" height="600" frameborder="1" style="border:2;" allowfullscreen="" aria-hidden="false"
+						tabindex="0"></iframe>
+				</div>
+			</div>
+		</main>
+
+		<footer>
+			<div class="footer">
+				<div>© ООО "Крепость" - Аренда Спецтехники</div>
+				<div><a href="tel:+79138374082">8(913)837-40-82</a></div>
+				<div><a href='mailto:krepost.krsk@mail.ru'>krepost.krsk@mail.ru</a></div>
+			</div>
+		</footer>
+
+		<script type="text/javascript" src="script.js"></script>
+	</div>
+</body>
+
+</html>
